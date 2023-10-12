@@ -17,3 +17,9 @@
   transform: scale(1.1);
   transition: transform 0.2s ease-in-out;
 }
+
+/* @media (max-width: 450px) {
+  .btn {
+    font-size: 10px;
+  }
+} */

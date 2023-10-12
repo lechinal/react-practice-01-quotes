@@ -18,3 +18,21 @@
 
   /* background-color: green; */
 }
+
+@media (max-width: 800px) {
+  .BtnsBox {
+    flex-direction: column;
+    gap: 20px;
+    width: 250px;
+  }
+}
+
+@media (max-width: 450px) {
+  .BtnsBox {
+    width: 100px;
+    font-size: 0;
+  }
+  .text {
+    display: none;
+  }
+}

@@ -29,18 +29,18 @@ function QuotesInteraction({
     <div className={styles.BtnsBox}>
       <div className={styles.leftBtns}>
         <Button bgColor="#7950f2" onClick={showPreviousQuote}>
-          <GrCaretPrevious /> Previous
+          <GrCaretPrevious /> <span className={styles.text}>Previous</span>
         </Button>
         <Button bgColor="#7950f2" onClick={showNextQuote}>
-          Next <GrCaretNext />
+          <span className={styles.text}>Next</span> <GrCaretNext />
         </Button>
       </div>
       <div className={styles.rightBtns}>
         <Button bgColor="#7950f2" onClick={copyToClipboard}>
-          Copy Quote <BiCopy />
+          <span className={styles.text}>Copy Quote</span> <BiCopy />
         </Button>
         <Button bgColor="#7950f2" onClick={resetToFirstQuote}>
-          Reset to First <BiReset />
+          <span className={styles.text}>Reset to First</span> <BiReset />
         </Button>
       </div>
       <div style={{ display: 'none' }}>
