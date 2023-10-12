@@ -1,0 +1,38 @@
+.quoteBox {
+  display: flex;
+  flex-direction: space-between;
+  text-align: center;
+  align-items: center;
+  gap: 50px;
+
+  background-color: #f7f7f7;
+
+  border-radius: 7px;
+  margin: 100px auto;
+  padding: 25px 100px;
+  width: 600px;
+}
+
+.quoteAuthorImage {
+  width: 74px;
+  height: 74px;
+
+  border-radius: 50%;
+}
+
+.quoteTextBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.quoteText {
+  flex: 1;
+  font-style: italic;
+}
+.quoteAuthor {
+  flex: 1;
+  text-align: right;
+  margin-bottom: -50px;
+
+  font-weight: bold;
+}

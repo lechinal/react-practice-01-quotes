@@ -1,0 +1,19 @@
+.btn {
+  cursor: pointer;
+  border-radius: 100px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  height: 30px;
+}
+
+.btn:hover {
+  border: 2px solid #111;
+  box-shadow: 0px 0px 26px 8px hsla(323, 87%, 50%, 0.664);
+  background-color: #000428;
+  border: none;
+
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
