@@ -147,6 +147,52 @@ const QuotesObj = [
       'Everyone thinks of changing the world, but no one thinks of changing himself.',
     authorImage: '/images/Leo-Tolstoy.jpg',
   },
+  {
+    id: 21,
+    author: 'John Green',
+    quote: 'The world is not a wish-granting factory.',
+    authorImage: '/images/John-Green.jpg',
+  },
+  {
+    id: 22,
+    author: 'Paulo Coelho',
+    quote:
+      'There is only one thing that makes a dream impossible to achieve: the fear of failure.',
+    authorImage: '/images/Paulo-Coelho.jpg',
+  },
+  {
+    id: 23,
+    author: 'George V. Higgins',
+    quote: "This life's hard, but it's harder if you're stupid.",
+    authorImage: '/images/George-V.-Higgins.jpg',
+  },
+  {
+    id: 24,
+    author: 'Douglas Adams',
+    quote:
+      "I refuse to answer that question on the grounds that I don't know the answer.",
+    authorImage: '/images/Douglas-Adams.jpg',
+  },
+  {
+    id: 25,
+    author: 'Albert Einstein',
+    quote: 'Never memorize something that you can look up.',
+    authorImage: '/images/Albert-Einstein.jpg',
+  },
+  {
+    id: 26,
+    author: 'Dalai Lama XIV',
+    quote:
+      'Happiness is not something ready made. It comes from your own actions.',
+    authorImage: '/images/Dalai-Lama-XIV.jpg',
+  },
+  {
+    id: 27,
+    author: 'Mahatma Gandhi',
+    quote:
+      'The weak can never forgive. Forgiveness is the attribute of the strong.',
+    authorImage: '/images/Mahatma-Gandhi.jpg',
+  },
 ];
 
 export default QuotesObj;
