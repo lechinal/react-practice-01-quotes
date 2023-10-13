@@ -8,9 +8,10 @@ import QuotesObj from './data/data';
 export const App = () => {
   const [currentQuoteIndex, setCurrentQuoteIndex] = useState(0);
 
-  const [readQuotes, setReadQuotes] = useState(0);
-  const [remainingQuotes, setRemainingQuotes] = useState(QuotesObj.length);
+  const [readQuotes, setReadQuotes] = useState(1);
+  const [remainingQuotes, setRemainingQuotes] = useState(QuotesObj.length - 1);
   const percentageRead = (readQuotes / QuotesObj.length) * 100;
+
   const showNextQuote = () => {
     if (currentQuoteIndex < QuotesObj.length - 1) {
       setCurrentQuoteIndex(currentQuoteIndex + 1);
@@ -29,7 +30,7 @@ export const App = () => {
 
   function resetToFirstQuote() {
     setCurrentQuoteIndex(0);
-    setReadQuotes(0);
+    setReadQuotes(1);
     setRemainingQuotes(QuotesObj.length);
   }
 
