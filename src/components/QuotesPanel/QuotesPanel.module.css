@@ -45,7 +45,7 @@
     gap: 20px;
     padding: 15px;
     width: 300px;
-    height: 200px;
+    height: auto;
   }
 
   .quoteAuthorImage {
@@ -54,5 +54,22 @@
   }
   .quoteTextBox {
     flex-direction: column;
+    height: auto;
+  }
+  .quoteAuthor {
+    font-size: 14px;
+    background-color: #fff;
+  }
+}
+
+@media (max-width: 450px) {
+  .quoteTextBox {
+    height: auto;
+  }
+  .quoteText {
+    font-size: 14px;
+  }
+  .quoteAuthor {
+    background-color: #fff;
   }
 }
